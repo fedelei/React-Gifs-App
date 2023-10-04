@@ -1,0 +1,54 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+ padding: 60px;
+ background: rgb(110,2,49);
+background: radial-gradient(circle, rgba(110,2,49,1) 18%, rgba(21,53,89,1) 100%);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+    font-size: 1.2rem;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 4px;
+
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card {
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: auto;
+}
+
+.card p {
+    text-align: center;
+    padding: 5px;
+    color:blanchedalmond;
+}
+
+.card img {
+    max-height: 170px;
+}
+
+h3, h2{
+    color:beige;
+    display: flex;
+    justify-content: center;
+}
